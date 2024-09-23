@@ -1,12 +1,12 @@
-shadowSocksDefaultProxySettings = "SOCKS5 127.0.0.1:1080";
+const shadowSocksDefaultProxySettings = "SOCKS5 127.0.0.1:1080";
 
-// Define the list of domains to be proxied
-var proxyDomains = [
+// Create a set of domains for quick O(1) lookups
+const proxyDomains = new Set([
     // ChatGPT
     "openai.com",
     "chatgpt.com",
     "oaistatic.com",
-    // Youtube
+    // YouTube
     "youtube.com",
     "yt.be",
     "ytimg.com",
@@ -20,18 +20,21 @@ var proxyDomains = [
 
     // OTHER
     "kino.pub",
-];
-
+]);
 
 function FindProxyForURL(url, host) {
-
-    // Iterate through your list to check if the host matches any entry
-    for (var i = 0; i < proxyDomains.length; i++) {
-        if (dnsDomainIs(host, "." + proxyDomains[i]) || host === proxyDomains[i]) {
-            return shadowSocksDefaultProxySettings; // Shadowsocks default proxy settings
+    // Split the host into its domain parts
+    const domainParts = host.split('.');
+    
+    // Check from the top-level domain backward for matches
+    for (let i = 0; i < domainParts.length; i++) {
+        const currentDomain = domainParts.slice(i).join('.');
+        
+        if (proxyDomains.has(currentDomain)) {
+            return shadowSocksDefaultProxySettings;
         }
     }
 
-    // Default to direct connection for all other URLs
+    // Default to direct connection
     return "DIRECT";
 }
