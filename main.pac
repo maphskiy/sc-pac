@@ -32,6 +32,9 @@ const proxyDomains = new Set([
     "kotlinconf.com",
     "jetbrains.com.cn",
     "myjetbrains.com",
+    // Claude
+    "anthropic.com",
+    "claude.ai",
 
     // OTHER
     "kino.pub",
