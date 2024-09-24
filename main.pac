@@ -17,6 +17,20 @@ const proxyDomains = new Set([
     "youtu.be",
     "youtube-nocookie.com",
     "youtube-ui.l.google.com",
+    // JetBrains
+    "jetbrains.com",
+    "jetbrains.dev",
+    "jetbrains.net",
+    "jetbrains.org",
+    "jetbrains.ru",
+    "jetbrains.space",
+    "intellij.net",
+    "jb.gg",
+    "kotl.in",
+    "kotlinlang.org",
+    "talkingkotlin.com",
+    "kotlinconf.com",
+    "jetbrains.com.cn",
 
     // OTHER
     "kino.pub",
