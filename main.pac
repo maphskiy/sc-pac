@@ -35,6 +35,10 @@ const proxyDomains = new Set([
     // Claude
     "anthropic.com",
     "claude.ai",
+    // Autodesk
+    "autodesk.com",
+    "autodesk360.com",
+    "autodesk360.com",
 
     // OTHER
     "kino.pub",
