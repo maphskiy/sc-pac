@@ -38,7 +38,7 @@ const proxyDomains = new Set([
     // Autodesk
     "autodesk.com",
     "autodesk360.com",
-    "autodesk360.com",
+    "akamaiedge.net",
 
     // OTHER
     "kino.pub",
