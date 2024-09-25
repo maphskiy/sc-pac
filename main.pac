@@ -39,6 +39,7 @@ const proxyDomains = new Set([
     // OTHER
     "kino.pub",
     "rutracker.org",
+    "miro.com",
 ]);
 
 function FindProxyForURL(url, host) {
