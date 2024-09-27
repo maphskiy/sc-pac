@@ -44,6 +44,9 @@ const proxyDomains = new Set([
     "kino.pub",
     "rutracker.org",
     "miro.com",
+    "sense.com",
+    "nicehash.com",
+    "discord.com",
 ]);
 
 function FindProxyForURL(url, host) {
