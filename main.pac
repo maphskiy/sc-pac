@@ -47,6 +47,12 @@ const proxyDomains = new Set([
     "sense.com",
     "nicehash.com",
     "discord.com",
+    "medium.com",
+    "arturia.com",
+    "computegrid.ai",
+    "native-instruments.com",
+    "ableton.com",
+    "x.com",
 ]);
 
 function FindProxyForURL(url, host) {
