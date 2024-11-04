@@ -39,6 +39,9 @@ const proxyDomains = new Set([
     "autodesk.com",
     "autodesk360.com",
     "akamaiedge.net",
+    // Tailscale
+    "tailscale.com",
+    "ts.net",
 
     // OTHER
     "kino.pub",
@@ -53,6 +56,7 @@ const proxyDomains = new Set([
     "native-instruments.com",
     "ableton.com",
     "x.com",
+    "metamask.io",
 ]);
 
 function FindProxyForURL(url, host) {
