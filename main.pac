@@ -42,6 +42,33 @@ const proxyDomains = new Set([
     // Tailscale
     "tailscale.com",
     "ts.net",
+    // Discord
+    "dis.gd",
+    "discord.co",
+    "discord.com",
+    "discord.design",
+    "discord.dev",
+    "discord.gg",
+    "discord.gift",
+    "discord.gift",
+    "discord.media",
+    "discord.new",
+    "discord.store",
+    "discord.tools",
+    "discordapp.com",
+    "discordapp.net",
+    "discordmerch.com",
+    "discordpartygames.com",
+    "discord-activities.com",
+    "discordactivities.com",
+    "discordsays.com",
+    "discordstatus.com",
+    "airhorn.solutions",
+    "airhornbot.com",
+    "bigbeans.solutions",
+    "watchanimeattheoffice.com",
+    "discordapp.io",
+    "discordcdn.com",
 
     // OTHER
     "kino.pub",
@@ -57,6 +84,7 @@ const proxyDomains = new Set([
     "ableton.com",
     "x.com",
     "metamask.io",
+    "slack.com",
 ]);
 
 function FindProxyForURL(url, host) {
