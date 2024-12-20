@@ -96,7 +96,6 @@ const proxyDomains = new Set([
     "miro.com",
     "sense.com",
     "nicehash.com",
-    "discord.com",
     "medium.com",
     "computegrid.ai",
     "x.com",
