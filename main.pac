@@ -6,7 +6,7 @@ const proxyDomains = new Set([
     "openai.com",
     "chatgpt.com",
     "oaistatic.com",
-    // YouTube
+    // YouTube & Google
     "youtube.com",
     "yt.be",
     "ytimg.com",
@@ -17,6 +17,7 @@ const proxyDomains = new Set([
     "youtu.be",
     "youtube-nocookie.com",
     "youtube-ui.l.google.com",
+    "google.com",
     // JetBrains
     "jetbrains.com",
     "jetbrains.dev",
@@ -42,6 +43,26 @@ const proxyDomains = new Set([
     // Tailscale
     "tailscale.com",
     "ts.net",
+    // Windows
+    "microsoft.com",
+    "skype.com",
+    "visualstudio.com",
+    "exp-tas.com",
+    "msftncsi.com",
+    "windowsupdate.com",
+    "msftconnecttest.com",
+    "msedge.net",
+    "azure.com",
+    "azureedge.com",
+    "bing.com",
+    // Music
+    "babyaud.io",
+    "arturia.com",
+    "native-instruments.com",
+    "ableton.com",
+    "spitfireaudio.com",
+    "native-cloud.com",
+    "soundcloud.com",
     // Discord
     "dis.gd",
     "discord.co",
@@ -69,7 +90,6 @@ const proxyDomains = new Set([
     "watchanimeattheoffice.com",
     "discordapp.io",
     "discordcdn.com",
-
     // OTHER
     "kino.pub",
     "rutracker.org",
@@ -78,12 +98,10 @@ const proxyDomains = new Set([
     "nicehash.com",
     "discord.com",
     "medium.com",
-    "arturia.com",
     "computegrid.ai",
-    "native-instruments.com",
-    "ableton.com",
     "x.com",
     "metamask.io",
+    "zendesk.com",
     "slack.com",
     "databricks.com",
 ]);
