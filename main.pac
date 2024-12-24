@@ -102,7 +102,8 @@ const proxyDomains = new Set([
     "metamask.io",
     "zendesk.com",
     "slack.com",
-    "databricks.com"
+    "databricks.com",
+    "github.com",
 ]);
 
 function FindProxyForURL(url, host) {
