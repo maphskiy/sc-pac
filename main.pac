@@ -105,7 +105,8 @@ const proxyDomains = new Set([
     "databricks.com",
     "github.com",
     "nvidia.com",
-    "developer.nvidia.com"
+    "developer.nvidia.com",
+    "cursor.ai",
 ]);
 
 function FindProxyForURL(url, host) {
