@@ -107,6 +107,7 @@ const proxyDomains = new Set([
     "nvidia.com",
     "developer.nvidia.com",
     "cursor.ai",
+    "cursor.com"
 ]);
 
 function FindProxyForURL(url, host) {
