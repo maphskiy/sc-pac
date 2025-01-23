@@ -90,6 +90,15 @@ const proxyDomains = new Set([
     "watchanimeattheoffice.com",
     "discordapp.io",
     "discordcdn.com",
+    // LUCIDCHARTS
+    "lucid.co",
+    "lucidextensions.app",
+    "lucidchart.com",
+    "lucid.app",
+    "lucidspark.com",
+    "lucidscale.com",
+    "lucidforeducation.com",
+    "lucid.readme.io",
     // OTHER
     "kino.pub",
     "rutracker.org",
