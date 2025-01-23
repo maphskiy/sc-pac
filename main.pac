@@ -103,6 +103,12 @@ const proxyDomains = new Set([
     "cursor.ai",
     "cursor.com",
     "cursor.sh",
+    // NOTION
+    "notion.so",
+    "notion.app",
+    "notion.com",
+    "notionusercontent.com",
+    "notion-static.com",
     // OTHER
     "kino.pub",
     "rutracker.org",
@@ -119,7 +125,6 @@ const proxyDomains = new Set([
     "github.com",
     "nvidia.com",
     "developer.nvidia.com",
-    "notion.so"
 ]);
 
 function FindProxyForURL(url, host) {
