@@ -125,6 +125,7 @@ const proxyDomains = new Set([
     "github.com",
     "nvidia.com",
     "developer.nvidia.com",
+    "midjourney.com",
 ]);
 
 function FindProxyForURL(url, host) {
