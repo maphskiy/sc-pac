@@ -128,6 +128,7 @@ const proxyDomains = new Set([
     "midjourney.com",
     "klingai.com",
     "amazonaws.com",
+    "amazon.com",
 ]);
 
 function FindProxyForURL(url, host) {
