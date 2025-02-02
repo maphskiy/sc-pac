@@ -112,6 +112,7 @@ const proxyDomains = new Set([
     // OTHER
     "kino.pub",
     "rutracker.org",
+    "rutracker.cc",
     "miro.com",
     "sense.com",
     "nicehash.com",
