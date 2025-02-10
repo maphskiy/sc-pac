@@ -130,6 +130,7 @@ const proxyDomains = new Set([
     "klingai.com",
     "amazonaws.com",
     "amazon.com",
+    "linkedin.com",
 ]);
 
 function FindProxyForURL(url, host) {
