@@ -131,6 +131,7 @@ const proxyDomains = new Set([
     "amazonaws.com",
     "amazon.com",
     "linkedin.com",
+    "packagist.org",
 ]);
 
 function FindProxyForURL(url, host) {
