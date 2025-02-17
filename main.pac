@@ -109,6 +109,12 @@ const proxyDomains = new Set([
     "notion.com",
     "notionusercontent.com",
     "notion-static.com",
+    // INSTAGRAM
+    "instagram.com",
+    "cdninstagram.com",
+    "ig.me",
+    "instagr.am",
+    "igsonar.com",
     // OTHER
     "kino.pub",
     "rutracker.org",
@@ -132,7 +138,6 @@ const proxyDomains = new Set([
     "amazon.com",
     "linkedin.com",
     "packagist.org",
-    "instagram.com",
     "facebook.com",
 ]);
 
