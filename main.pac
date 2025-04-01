@@ -1,4 +1,4 @@
-const shadowSocksDefaultProxySettings = "SOCKS5 127.0.0.1:1080";
+const defaultProxySettings = "SOCKS5 127.0.0.1:12334";
 
 // Create a set of domains for quick O(1) lookups
 const proxyDomains = new Set([
@@ -151,7 +151,7 @@ function FindProxyForURL(url, host) {
         const currentDomain = domainParts.slice(i).join('.');
         
         if (proxyDomains.has(currentDomain)) {
-            return shadowSocksDefaultProxySettings;
+            return defaultProxySettings;
         }
     }
 
