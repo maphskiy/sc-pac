@@ -140,6 +140,7 @@ const proxyDomains = new Set([
     "packagist.org",
     "facebook.com",
     "composio.dev",
+    "fast.com",
 ]);
 
 function FindProxyForURL(url, host) {
