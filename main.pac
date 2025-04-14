@@ -142,6 +142,7 @@ const proxyDomains = new Set([
     "composio.dev",
     "fast.com",
     "bitsearch.to",
+    "t-ru.org",
 ]);
 
 function FindProxyForURL(url, host) {
