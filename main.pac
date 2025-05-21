@@ -131,8 +131,6 @@ const proxyDomains = new Set([
     "github.com",
     "nvidia.com",
     "developer.nvidia.com",
-    "midjourney.com",
-    "klingai.com",
     "amazonaws.com",
     "amazon.com",
     "linkedin.com",
@@ -142,6 +140,10 @@ const proxyDomains = new Set([
     "fast.com",
     "bitsearch.to",
     "t-ru.org",
+    // AI
+    "midjourney.com",
+    "klingai.com",
+    "kechuangai.com"
 ]);
 
 function FindProxyForURL(url, host) {
