@@ -144,7 +144,10 @@ const proxyDomains = new Set([
     // AI
     "midjourney.com",
     "klingai.com",
-    "kechuangai.com"
+    "kechuangai.com",
+    // JIRA
+    "atlassian.net",
+    "atl-paas.net"
 ]);
 
 function FindProxyForURL(url, host) {
