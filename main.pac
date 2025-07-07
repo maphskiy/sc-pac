@@ -141,6 +141,7 @@ const proxyDomains = new Set([
     "fast.com",
     "bitsearch.to",
     "t-ru.org",
+    "d3js.org",
     // AI
     "midjourney.com",
     "klingai.com",
