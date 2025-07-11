@@ -146,6 +146,7 @@ const proxyDomains = new Set([
     "midjourney.com",
     "klingai.com",
     "kechuangai.com",
+    "openrouter.ai",
     // JIRA
     "atlassian.net",
     "atl-paas.net"
