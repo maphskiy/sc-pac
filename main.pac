@@ -149,7 +149,9 @@ const proxyDomains = new Set([
     "openrouter.ai",
     // JIRA
     "atlassian.net",
-    "atl-paas.net"
+    "atl-paas.net",
+    "ramensoftware.com",
+    "windhawk.net"
 ]);
 
 function FindProxyForURL(url, host) {
