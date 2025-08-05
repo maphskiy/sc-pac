@@ -152,7 +152,14 @@ const proxyDomains = new Set([
     "atl-paas.net",
     "ramensoftware.com",
     "windhawk.net",
-    "intuit.com"
+    // QuickBooks (Intuit)
+    "intuit.com",
+    "intuitcdn.net",
+    "tsheets.com",
+    "quickbooksconnect.com",
+    "mint.com",
+    "intuit.ca",
+    "intuit.launchdarkly.com",
 ]);
 
 function FindProxyForURL(url, host) {
