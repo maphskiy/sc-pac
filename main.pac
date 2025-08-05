@@ -151,7 +151,8 @@ const proxyDomains = new Set([
     "atlassian.net",
     "atl-paas.net",
     "ramensoftware.com",
-    "windhawk.net"
+    "windhawk.net",
+    "intuit.com"
 ]);
 
 function FindProxyForURL(url, host) {
