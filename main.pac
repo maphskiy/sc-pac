@@ -160,6 +160,7 @@ const proxyDomains = new Set([
     "mint.com",
     "intuit.ca",
     "intuit.launchdarkly.com",
+    "patreon.com",
 ]);
 
 function FindProxyForURL(url, host) {
