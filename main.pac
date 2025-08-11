@@ -159,8 +159,11 @@ const proxyDomains = new Set([
     "quickbooksconnect.com",
     "mint.com",
     "intuit.ca",
+    "intuit.com",
     "intuit.launchdarkly.com",
+    // Other
     "patreon.com",
+    "hashicorp.com"
 ]);
 
 function FindProxyForURL(url, host) {
