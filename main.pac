@@ -6,6 +6,14 @@ const proxyDomains = new Set([
     "openai.com",
     "chatgpt.com",
     "oaistatic.com",
+    // Facebook
+    "facebook.com",
+    "fbcdn.net",
+    "facebook.net",
+    "fbsbx.com",
+    "fbpigeon.com",
+    "fb.com",
+    "facebook-hardware.com",
     // YouTube & Google
     "youtube.com",
     "yt.be",
