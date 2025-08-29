@@ -171,6 +171,7 @@ const proxyDomains = new Set([
     "intuit.launchdarkly.com",
     // Other
     "patreon.com",
+    "mixcloud.com",
     "hashicorp.com"
 ]);
 
