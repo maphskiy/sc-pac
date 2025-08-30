@@ -51,7 +51,6 @@ const proxyDomains = new Set([
     "akamaiedge.net",
     // Tailscale
     "tailscale.com",
-    "ts.net",
     // Windows
     "microsoft.com",
     "skype.com",
