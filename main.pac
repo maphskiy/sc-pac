@@ -117,6 +117,7 @@ const proxyDomains = new Set([
     "notion.com",
     "notionusercontent.com",
     "notion-static.com",
+    "notion.site",
     // INSTAGRAM
     "instagram.com",
     "cdninstagram.com",
