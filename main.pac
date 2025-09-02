@@ -173,7 +173,8 @@ const proxyDomains = new Set([
     "mixcloud.com",
     // Other
     "patreon.com",
-    "hashicorp.com"
+    "hashicorp.com",
+    "slack.com"
 ]);
 
 function FindProxyForURL(url, host) {
