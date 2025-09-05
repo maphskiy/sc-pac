@@ -27,6 +27,8 @@ const proxyDomains = new Set([
     "youtube-ui.l.google.com",
     "google.com",
     "pkg.dev",
+    "gstatic.com",
+    "googleusercontent.com",
     // JetBrains
     "jetbrains.com",
     "jetbrains.dev",
