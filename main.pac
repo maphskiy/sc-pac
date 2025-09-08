@@ -176,7 +176,8 @@ const proxyDomains = new Set([
     // Other
     "patreon.com",
     "hashicorp.com",
-    "slack.com"
+    "slack.com",
+    "terraform.io"
 ]);
 
 function FindProxyForURL(url, host) {
