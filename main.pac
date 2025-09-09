@@ -176,7 +176,6 @@ const proxyDomains = new Set([
     // Other
     "patreon.com",
     "hashicorp.com",
-    "slack.com",
     "terraform.io"
 ]);
 
