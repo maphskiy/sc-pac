@@ -29,6 +29,7 @@ const proxyDomains = new Set([
     "pkg.dev",
     "gstatic.com",
     "googleusercontent.com",
+    "meet.google.com",
     // JetBrains
     "jetbrains.com",
     "jetbrains.dev",
