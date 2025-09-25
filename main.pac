@@ -177,7 +177,8 @@ const proxyDomains = new Set([
     // Other
     "patreon.com",
     "hashicorp.com",
-    "terraform.io"
+    "terraform.io",
+    "emclient.com"
 ]);
 
 function FindProxyForURL(url, host) {
