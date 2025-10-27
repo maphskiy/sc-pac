@@ -180,7 +180,8 @@ const proxyDomains = new Set([
     "terraform.io",
     "emclient.com",
     "ollama.com",
-    "perplexity.ai"
+    "perplexity.ai",
+    "vdsina.com"
 ]);
 
 function FindProxyForURL(url, host) {
