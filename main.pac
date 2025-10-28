@@ -181,7 +181,8 @@ const proxyDomains = new Set([
     "emclient.com",
     "ollama.com",
     "perplexity.ai",
-    "vdsina.com"
+    "vdsina.com",
+    "auth0.com"
 ]);
 
 function FindProxyForURL(url, host) {
