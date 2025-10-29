@@ -183,7 +183,8 @@ const proxyDomains = new Set([
     "ollama.com",
     "perplexity.ai",
     "vdsina.com",
-    "auth0.com"
+    "auth0.com",
+    "openkg.cn"
 ]);
 
 function FindProxyForURL(url, host) {
