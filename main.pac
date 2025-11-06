@@ -187,7 +187,8 @@ const proxyDomains = new Set([
     "openkg.cn",
     // APPLE
     "icloud.com",
-    "apple.com"
+    "apple.com",
+    "apple-cloudkit.com"
 ]);
 
 function FindProxyForURL(url, host) {
