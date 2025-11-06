@@ -149,7 +149,10 @@ const proxyDomains = new Set([
     "openrouter.ai",
     // JIRA
     "atlassian.net",
-    "atl-paas.net"
+    "atl-paas.net",
+    // APPLE
+    "icloud.com",
+    "apple.com"
 ]);
 
 function FindProxyForURL(url, host) {
