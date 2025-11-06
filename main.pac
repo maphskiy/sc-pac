@@ -6,6 +6,14 @@ const proxyDomains = new Set([
     "openai.com",
     "chatgpt.com",
     "oaistatic.com",
+    // Facebook
+    "facebook.com",
+    "fbcdn.net",
+    "facebook.net",
+    "fbsbx.com",
+    "fbpigeon.com",
+    "fb.com",
+    "facebook-hardware.com",
     // YouTube & Google
     "youtube.com",
     "yt.be",
@@ -19,6 +27,9 @@ const proxyDomains = new Set([
     "youtube-ui.l.google.com",
     "google.com",
     "pkg.dev",
+    "gstatic.com",
+    "googleusercontent.com",
+    "meet.google.com",
     // JetBrains
     "jetbrains.com",
     "jetbrains.dev",
@@ -37,13 +48,13 @@ const proxyDomains = new Set([
     // Claude
     "anthropic.com",
     "claude.ai",
+    "claude.com",
     // Autodesk
     "autodesk.com",
     "autodesk360.com",
     "akamaiedge.net",
     // Tailscale
     "tailscale.com",
-    "ts.net",
     // Windows
     "microsoft.com",
     "skype.com",
@@ -110,6 +121,7 @@ const proxyDomains = new Set([
     "notion.com",
     "notionusercontent.com",
     "notion-static.com",
+    "notion.site",
     // INSTAGRAM
     "instagram.com",
     "cdninstagram.com",
@@ -150,6 +162,29 @@ const proxyDomains = new Set([
     // JIRA
     "atlassian.net",
     "atl-paas.net",
+    "ramensoftware.com",
+    "windhawk.net",
+    // QuickBooks (Intuit)
+    "intuit.com",
+    "intuitcdn.net",
+    "tsheets.com",
+    "quickbooksconnect.com",
+    "mint.com",
+    "intuit.ca",
+    "intuit.com",
+    "intuit.launchdarkly.com",
+    // Mixcloud
+    "mixcloud.com",
+    // Other
+    "patreon.com",
+    "hashicorp.com",
+    "terraform.io",
+    "emclient.com",
+    "ollama.com",
+    "perplexity.ai",
+    "vdsina.com",
+    "auth0.com",
+    "openkg.cn",
     // APPLE
     "icloud.com",
     "apple.com"
