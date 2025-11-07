@@ -188,7 +188,9 @@ const proxyDomains = new Set([
     // APPLE
     "icloud.com",
     "apple.com",
-    "apple-cloudkit.com"
+    "apple-cloudkit.com",
+    // Lektra
+    "glaid.net"
 ]);
 
 function FindProxyForURL(url, host) {
