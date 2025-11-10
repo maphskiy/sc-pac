@@ -186,6 +186,7 @@ const proxyDomains = new Set([
     "vdsina.com",
     "auth0.com",
     "openkg.cn",
+    "headshotpro.com",
     // APPLE
     "icloud.com",
     "apple.com",
