@@ -187,6 +187,8 @@ const proxyDomains = new Set([
     "auth0.com",
     "openkg.cn",
     "headshotpro.com",
+    "headshotpror2.com",
+    "qdrant.tech",
     // APPLE
     "icloud.com",
     "apple.com",
