@@ -191,6 +191,7 @@ const proxyDomains = new Set([
     "qdrant.tech",
     "neo4j.com",
     "neo4j.org",
+    "stripe.com",
     // APPLE
     "icloud.com",
     "apple.com",
