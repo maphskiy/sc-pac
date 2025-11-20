@@ -193,6 +193,7 @@ const proxyDomains = new Set([
     "neo4j.org",
     "stripe.com",
     "chainguard.dev",
+    "gofile.me",
     // APPLE
     "icloud.com",
     "apple.com",
