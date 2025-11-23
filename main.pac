@@ -145,8 +145,6 @@ const proxyDomains = new Set([
     "github.com",
     "nvidia.com",
     "developer.nvidia.com",
-    "amazonaws.com",
-    "amazon.com",
     "linkedin.com",
     "packagist.org",
     "facebook.com",
@@ -155,6 +153,12 @@ const proxyDomains = new Set([
     "bitsearch.to",
     "t-ru.org",
     "d3js.org",
+    // Amazone
+    "amazonaws.com",
+    "amazon.com",
+    "api.aws",
+    "awsstatic.com",
+    "awsstatic.com",
     // AI
     "midjourney.com",
     "klingai.com",
