@@ -199,7 +199,8 @@ const proxyDomains = new Set([
     "chainguard.dev",
     "gofile.me",
     "docusign.com",
-    "www.datacamp.com",
+    "datacamp.com",
+    "cloudflare.com",
     // APPLE
     "icloud.com",
     "apple.com",
