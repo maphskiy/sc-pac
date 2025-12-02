@@ -143,6 +143,7 @@ const proxyDomains = new Set([
     "zendesk.com",
     "databricks.com",
     "github.com",
+    "arkoselabs.com",
     "nvidia.com",
     "developer.nvidia.com",
     "linkedin.com",
