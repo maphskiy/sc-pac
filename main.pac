@@ -1,5 +1,17 @@
 const defaultProxySettings = "SOCKS5 127.0.0.1:12334";
 
+// Create a set of individual IP addresses to be proxied
+const proxyIPs = new Set([
+    // Add individual IP addresses here
+    // Example: "203.0.113.0", "198.51.100.0"
+]);
+
+// Create an array of CIDR ranges to be proxied
+const proxyCIDRs = [
+    // Add CIDR ranges here
+    "160.79.104.0/23"
+];
+
 // Create a set of domains for quick O(1) lookups
 const proxyDomains = new Set([
     // ChatGPT
@@ -182,6 +194,7 @@ const proxyDomains = new Set([
     // Mixcloud
     "mixcloud.com",
     // Other
+    "sentry.io",
     "patreon.com",
     "hashicorp.com",
     "terraform.io",
@@ -211,14 +224,54 @@ const proxyDomains = new Set([
     "glaid.net"
 ]);
 
+// Helper function to convert IP address to 32-bit integer
+function ipToInt(ip) {
+    const parts = ip.split('.');
+    return (parseInt(parts[0]) << 24) +
+           (parseInt(parts[1]) << 16) +
+           (parseInt(parts[2]) << 8) +
+           parseInt(parts[3]);
+}
+
+// Helper function to check if IP is in CIDR range
+function isIPInCIDR(ip, cidr) {
+    const [range, bits] = cidr.split('/');
+    const mask = -1 << (32 - parseInt(bits));
+    return (ipToInt(ip) & mask) === (ipToInt(range) & mask);
+}
+
+// Helper function to check if a string is a valid IPv4 address
+function isIPv4(str) {
+    const parts = str.split('.');
+    if (parts.length !== 4) return false;
+    return parts.every(function(part) {
+        const num = parseInt(part);
+        return num >= 0 && num <= 255 && part === num.toString();
+    });
+}
+
 function FindProxyForURL(url, host) {
+    // Check if the host is an individual IP address
+    if (proxyIPs.has(host)) {
+        return defaultProxySettings;
+    }
+
+    // Check if the host is an IPv4 address and matches any CIDR range
+    if (isIPv4(host)) {
+        for (let i = 0; i < proxyCIDRs.length; i++) {
+            if (isIPInCIDR(host, proxyCIDRs[i])) {
+                return defaultProxySettings;
+            }
+        }
+    }
+
     // Split the host into its domain parts
     const domainParts = host.split('.');
-    
+
     // Check from the top-level domain backward for matches
     for (let i = 0; i < domainParts.length; i++) {
         const currentDomain = domainParts.slice(i).join('.');
-        
+
         if (proxyDomains.has(currentDomain)) {
             return defaultProxySettings;
         }
