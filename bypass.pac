@@ -7,6 +7,7 @@ const bypassDomains = new Set([
     // "example.com",
     // "internal.corp",
     // Add more domains here
+    "ts.net"
 ]);
 
 function FindProxyForURL(url, host) {
