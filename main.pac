@@ -221,7 +221,10 @@ const proxyDomains = new Set([
     "apple.com",
     "apple-cloudkit.com",
     // Lektra
-    "glaid.net"
+    "glaid.net",
+    // Suno
+    "suno.ai",
+    "suno.com"
 ]);
 
 // Helper function to convert IP address to 32-bit integer
